@@ -14,8 +14,8 @@ Tính năng
 - Hiển thị chi tiết thông tin giảng viên: họ tên, số điện thoại, địa chỉ liên hệ, số tài khoản ngân hàng, và chi nhánh ngân hàng (nếu không phải là giảng viên trường).
 
 Công nghệ sử dụng
-- Front-end: HTML, CSS
-- Back-end: PHP
+- Giao diện: HTML, CSS
+- chức năng: PHP
 - Cơ sở dữ liệu: MySQL
 
 Cài đặt
@@ -78,6 +78,6 @@ Ghi chú
 - Đảm bảo bảo mật thông tin kết nối cơ sở dữ liệu trong môi trường thực tế.
 
 Liên hệ
-Tác giả: Phạm Duy Tân 
+Tác giả: Phạm Duy Tân, 
 GV.Hướng dẫn: Nguyễn Ngọc Đan Thanh
-Khoa Kỹ thuật và Công nghệ, Trường Đại học Trà Vinh
+Khoa Kỹ thuật và Công nghệ, Trường Đại học Trà Vinh.
