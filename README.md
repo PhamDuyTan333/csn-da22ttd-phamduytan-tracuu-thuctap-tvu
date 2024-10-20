@@ -64,7 +64,7 @@ Sử dụng
 3. Xem thông tin chi tiết giảng viên bằng cách nhấn vào liên kết "Xem chi tiết" trong kết quả tìm kiếm.
 
 Cấu trúc thư mục
-tra-cuu-thuc-tap/
+tra-cuu-thuc-tap-tvu/
 │
 ├── index.php            
 ├── styles.css    
