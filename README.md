@@ -14,7 +14,7 @@ Tính năng
 - Hiển thị chi tiết thông tin giảng viên: họ tên, số điện thoại, địa chỉ liên hệ, số tài khoản ngân hàng, và chi nhánh ngân hàng (nếu không phải là giảng viên trường).
 
 Công nghệ sử dụng
-- Giao diện: HTML, CSS
+- Giao diện: HTML, CSS, BOOSTRAP
 - chức năng: PHP
 - Cơ sở dữ liệu: MySQL
 
@@ -33,7 +33,7 @@ sql
 CREATE DATABASE dacsn;
 
 
-2. Chạy các lệnh SQL để tạo bảng và thêm dữ liệu mẫu (có trong file "qlttsv.sql`):
+2. Chạy các lệnh SQL để tạo bảng và thêm dữ liệu mẫu (có trong file "tracuuttsvtt.sql`):
 sql
 USE dacsn;
 -- Chạy các lệnh tạo bảng và thêm dữ liệu mẫu
@@ -44,18 +44,18 @@ php
 $servername = "localhost"; 
 $username = "root";       
 $password = "";          
-$dbname = "dacsn";        
+$dbname = "tracuuttsvtt";        
 
 Bước 4: Chạy ứng dụng
 - Mở trình duyệt và truy cập địa chỉ:
 
-http://localhost/tra-cuu-thuc-tap-tvu/
+http://localhost81/tracuuttsvtt/
 
 
 Sử dụng
 1. Nhập một trong các thông tin sau để tìm kiếm:
-    - Tên sinh viên
-    - Mã số sinh viên
+    - Mã sinh viên
+    - Họ tên
     - Lớp
     - Khóa học
 
@@ -64,14 +64,9 @@ Sử dụng
 3. Xem thông tin chi tiết giảng viên bằng cách nhấn vào liên kết "Xem chi tiết" trong kết quả tìm kiếm.
 
 Cấu trúc thư mục
-tra-cuu-thuc-tap-tvu/
+tracuuttsvtt/
 
-│
-├── index.php            
-├── styles.css    
-├── qlsvtt.sql        
-├── README.md      
-└── image/               
+             
 
 Ghi chú
 - Mã nguồn này chỉ sử dụng cho mục đích học tập.
