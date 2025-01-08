@@ -12,6 +12,8 @@ Tính năng
 - Tìm kiếm theo tên sinh viên, mã số sinh viên, lớp, và khóa học.
 - Hiển thị thông tin chi tiết về sinh viên, đề tài thực tập, giảng viên hướng dẫn và giảng viên báo cáo.
 - Hiển thị chi tiết thông tin giảng viên: họ tên, số điện thoại, địa chỉ liên hệ, số tài khoản ngân hàng, và chi nhánh ngân hàng (nếu không phải là giảng viên trường).
+- Quản lý các thông tin như sinh viên, lớp, đợt thực tập, đơn vị thực tập, người hướng dẫn, thông tin thực tập, tài khoản quản trị viên.
+- Thống kê.
 
 Công nghệ sử dụng
 - Giao diện: HTML, CSS, BOOSTRAP
@@ -27,46 +29,33 @@ Yêu cầu:
 Bước 1: Sao chép dự án về máy
 git clone https://github.com/PhamDuyTan333/csn-da22ttd-phamduytan-tracuu-thuctap-tvu.git
 
-Bước 2: Cấu hình cơ sở dữ liệu
-1. Tạo cơ sở dữ liệu MySQL:
-sql
-CREATE DATABASE dacsn;
+Bước 2: Mở Xampp
 
+Bước 3: Cấu hình cơ sở dữ liệu
+1. Tạo cơ sở dữ liệu MySQL:
+Đăt tên cơ sở dữ liệu là tracuuttsvtt
 
 2. Chạy các lệnh SQL để tạo bảng và thêm dữ liệu mẫu (có trong file "tracuuttsvtt.sql`):
 sql
 USE dacsn;
--- Chạy các lệnh tạo bảng và thêm dữ liệu mẫu
+-- Chạy các lệnh tạo bảng và thêm dữ liệu mẫu       
 
-Bước 3: Cấu hình kết nối cơ sở dữ liệu
-- Mở file "index.php" và điều chỉnh thông tin kết nối cơ sở dữ liệu:
-php
-$servername = "localhost"; 
-$username = "root";       
-$password = "";          
-$dbname = "tracuuttsvtt";        
-
-Bước 4: Chạy ứng dụng
+Bước 4: Chạy ứng dụng 
 - Mở trình duyệt và truy cập địa chỉ:
-
+- Truy cập trang tra cứu:
 http://localhost81/tracuuttsvtt/
+- Truy cập tra quản trị viên:
+http://localhost81/tracuuttsvtt/admin
 
-
-Sử dụng
+Sử dụng trang tra cứu:
 1. Nhập một trong các thông tin sau để tìm kiếm:
     - Mã sinh viên
     - Họ tên
     - Lớp
     - Khóa học
-
 2. Nhấn nút "Tìm kiếm" để xem kết quả.
 
 3. Xem thông tin chi tiết giảng viên bằng cách nhấn vào liên kết "Xem chi tiết" trong kết quả tìm kiếm.
-
-Cấu trúc thư mục
-tracuuttsvtt/
-
-             
 
 Ghi chú
 - Mã nguồn này chỉ sử dụng cho mục đích học tập.
