@@ -62,6 +62,6 @@ Ghi chú
 - Đảm bảo bảo mật thông tin kết nối cơ sở dữ liệu trong môi trường thực tế.
 
 Liên hệ
-Tác giả: Phạm Duy Tân, vietmobi4@gmail.com, 0354975691; 
-GV.Hướng dẫn: Nguyễn Ngọc Đan Thanh;
-Khoa Kỹ thuật và Công nghệ; Trường Đại học Trà Vinh.
+Tác giả: Phạm Duy Tân-Email:vietmobi4@gmail.com-sđt:0354975691, 
+GV.Hướng dẫn: Nguyễn Ngọc Đan Thanh,
+Khoa Kỹ thuật và Công nghệ, Trường Đại học Trà Vinh.
