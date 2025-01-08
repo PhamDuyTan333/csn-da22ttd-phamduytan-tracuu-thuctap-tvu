@@ -53,9 +53,9 @@ Sử dụng trang tra cứu:
     - Họ tên
     - Lớp
     - Khóa học
-2. Nhấn nút "Tìm kiếm" để xem kết quả.
+2. Nhấn nút "Tra cứu" để xem kết quả.
 
-3. Xem thông tin chi tiết giảng viên bằng cách nhấn vào liên kết "Xem chi tiết" trong kết quả tìm kiếm.
+3. Nhấn vào tên đơn vị thực tập, tên người hướng dẫn tại trường, tên người hướng dẫn đơn vị trong kết quả tìm kiếm để xem chi tiết.
 
 Ghi chú
 - Mã nguồn này chỉ sử dụng cho mục đích học tập.
