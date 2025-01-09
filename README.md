@@ -36,8 +36,6 @@ Bước 3: Cấu hình cơ sở dữ liệu
 Đăt tên cơ sở dữ liệu là tracuuttsvtt
 
 2. Chạy các lệnh SQL để tạo bảng và thêm dữ liệu mẫu (có trong file "tracuuttsvtt.sql`):
-sql
-USE dacsn;
 -- Chạy các lệnh tạo bảng và thêm dữ liệu mẫu       
 
 Bước 4: Chạy ứng dụng 
